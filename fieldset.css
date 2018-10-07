@@ -1,0 +1,20 @@
+fieldset{
+     width: 500px;
+}
+ #name, #field_name{
+     display: inline-block;
+}
+ #pass, #field_pass{
+     display: inline-block;
+}
+ #field_name{
+     position: relative;
+     left:90px;
+     height: 40px;
+}
+ #field_pass{
+     position: relative;
+     left:40px;
+     height: 40px;
+}
+ 
