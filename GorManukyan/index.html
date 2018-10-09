@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<form class="needs-validation was-validated" novalidate>
+			<div class="form-row">
+				<div class="col-md-4 mb-2">
+					<input type="text" class="form-control is-invalid" placeholder="First name" required>
+					<div class="invalid-feedback">
+						Error:
+					</div>
+				</div>				
+				<div class="col-md-4">
+					<input type="text" class="form-control is-valid" placeholder="Last name" required>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+				</div>
+				<div class="col-md-4">
+					<input type="text" class="form-control is-valid" placeholder="City" required>
+					<div class="valid-feedback">
+						Looks good!
+					</div>
+				</div>
+			</div>
+			<div class="form-inline mb-4">
+				<div class="input-group form-group">
+					<label class="col-sm-3 col-form-label">Email:</label>
+						<input type="email" class="form-control is-valid" placeholder="Enter email">
+				</div>
+			</div>
+			<div class="form-inline mb-4">
+				<div class="input-group form-group">
+						<label class="col-sm-3 col-form-label">Password:</label>
+						<input type="password" class="form-control is-valid" placeholder="Enter password">
+				</div>
+			</div>
+			<input type="submit" class="btn btn-primary">
+		</form>
+	</body>
+</html>
